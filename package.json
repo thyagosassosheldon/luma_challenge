@@ -1,0 +1,19 @@
+{
+  "name": "luma_challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
