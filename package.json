@@ -3,6 +3,7 @@
     "@badeball/cypress-cucumber-preprocessor": "latest",
     "@cypress/browserify-preprocessor": "latest",
     "cypress": "latest",
+    "cypress-iframe": "latest",
     "cypress-real-events": "^1.13.0",
     "typescript": "latest"
   },
