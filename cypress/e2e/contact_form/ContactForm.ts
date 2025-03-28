@@ -1,4 +1,5 @@
 import {Given, When, Then} from "@badeball/cypress-cucumber-preprocessor";
+import "cypress-mochawesome-reporter/cucumberSupport";
 import 'cypress-iframe';
 
 When("I go to Contact Form Page", () => {

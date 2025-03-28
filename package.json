@@ -4,6 +4,8 @@
     "@cypress/browserify-preprocessor": "latest",
     "cypress": "latest",
     "cypress-iframe": "latest",
+    "cypress-mochawesome-reporter": "latest",
+    "cypress-on-fix": "^1.1.0",
     "cypress-real-events": "^1.13.0",
     "typescript": "latest"
   },

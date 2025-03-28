@@ -1,4 +1,5 @@
 import {Given, When, Then} from "@badeball/cypress-cucumber-preprocessor";
+import "cypress-mochawesome-reporter/cucumberSupport";
 import "cypress-real-events";
 
 When("I hover over the menu {string}", (menu: string) => {

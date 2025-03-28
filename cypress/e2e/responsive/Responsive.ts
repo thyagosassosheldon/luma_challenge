@@ -1,4 +1,5 @@
 import {Given, When, Then} from "@badeball/cypress-cucumber-preprocessor";
+import "cypress-mochawesome-reporter/cucumberSupport";
 
 When("I change to a mobile view", () => {
 	cy.viewport("iphone-x");

@@ -1,4 +1,5 @@
 import {Given, When, Then} from "@badeball/cypress-cucumber-preprocessor";
+import "cypress-mochawesome-reporter/cucumberSupport";
 
 Given("I go to a wrong page", () => {
     cy.intercept("GET", "/nonexistentpage", () => {}).as("nonexistentpage");
