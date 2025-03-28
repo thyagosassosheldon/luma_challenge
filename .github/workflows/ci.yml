@@ -12,10 +12,5 @@ jobs:
             - name: Cypress run
               uses: cypress-io/github-action@v5
 
-            - name: Test Reporter
-              uses: dorny/test-reporter@v2.0.0
-              if: success() || failure()
-              with:
-                name: Mocha Tests            
-                path: cypress/reports/html/*.json    
-                reporter: mocha-json
+            - name: Publish Test Summary Results
+              run: npx github-actions-ctrf ctrf/ctrf-report.json
