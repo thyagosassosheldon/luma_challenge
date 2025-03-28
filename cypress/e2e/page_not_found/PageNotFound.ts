@@ -9,6 +9,6 @@ Then("I receive a 404 error", () => {
 	cy.wait("@nonexistentpage").its("response.statusCode").should("eq", 404);
 });
 
-Then("I should the enter a 404 page", () => {
+Then("I should enter a 404 page", () => {
 	cy.contains("Page Not Found");
 });
