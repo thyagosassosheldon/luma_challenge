@@ -11,3 +11,11 @@ jobs:
 
             - name: Cypress run
               uses: cypress-io/github-action@v5
+
+            - name: Test Reporter
+              uses: dorny/test-reporter@v2.0.0
+              if: success() || failure()
+              with:
+                name: Mocha Tests            
+                path: cypress/reports/*.html    
+                reporter: Mocha        
