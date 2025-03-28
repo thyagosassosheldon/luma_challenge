@@ -17,5 +17,5 @@ jobs:
               if: success() || failure()
               with:
                 name: Mocha Tests            
-                path: cypress/reports/*.html    
-                reporter: Mocha        
+                path: cypress/reports/*.json    
+                reporter: mocha-json
