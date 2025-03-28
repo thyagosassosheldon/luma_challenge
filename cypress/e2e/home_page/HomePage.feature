@@ -1,4 +1,4 @@
-Feature:
+Feature: Home Page validation
 As a user
 I want to access the Luma Home Page
 
