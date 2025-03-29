@@ -9,7 +9,7 @@ Project created for the Luma Challenge, this project have test automations made 
 - [Installation](#installation)
 - [How to run the tests](#how-to-run-the-tests)
 - [Test Reports](#test-reports)
-- 
+  
 ## About the project
 
 The project have some features as:
